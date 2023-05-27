@@ -4,6 +4,7 @@ import Section from "./Section";
 import AddSectionButton from "./AddSectionButton";
 import Sidebar from "./Sidebar";
 
+
 const Canvas = () => {
   const [sections, setSections] = useState<number[]>([1, 2, 3]);
 
